@@ -1,0 +1,2983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111001111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4F81BD">
+  <layouts>
+    <layout name="npnxnanbsnfns11111001111" font="Open Sans" controllayout="npnxnanbsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="pxabnsnfns11111001111" font="Open Sans" controllayout="pxabnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="npxnabnsnfns11111001111" font="Open Sans" controllayout="npxnabnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="npnxnanbnsnfns11111001111" font="Open Sans" controllayout="npnxnanbnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="pxabnsnfns11111001110" font="Open Sans" controllayout="pxabnsnfns11111001110" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="pnxanbnsnfns11111001111" font="Open Sans" controllayout="pnxanbnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="VDJ Recombination" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content\6ZXke4Q9ZrE_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/5x19mh2JFUH.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkleft" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="How to use this resource" />
+                  <property name="data" value="6Ye1AapwBJp" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Acknowledgements" />
+                  <property name="data" value="6iQMCIQOyGf" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111001110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111001111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F81BD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F81BD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111001111">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Closed Captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / Unmute</string>
+      <string id="next_shortcut">Next Slide</string>
+      <string id="playpause_shortcut">Play / Pause</string>
+      <string id="previous_shortcut">Previous Slide</string>
+      <string id="replay_shortcut">Replay Slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit Slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next Slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous Slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay Slide</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6NWJe2bBzd6" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6NWJe2bBzd6.6CcOIfIdNfg" displaytext="Title" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dCXrJV50ca" displaytext="B and T Cells: Antigen Receptor Function" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5dCXrJV50ca.61N6qZ4Iod2" displaytext="Cells of the Adaptive Immune System" expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.6rXyTk1PxKh" displaytext="Function of Antibodies: Neutralisation" expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.5xnyl56e6Pq" displaytext="Function of Antibodies: Opsonisation  " expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.6jjNJNOcpQj" displaytext="Function of Antibodies: Complement Activation" expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.6Q3BnBDCqaF" displaytext="Function of Antibodies: Imparting Specificity" expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.69YSK37uKBe" displaytext="Function of TCRs: Direct (CD8+ T Cell) " expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.6iCixzJNgnE" displaytext="Function of TCRs: Indirect (CD4+ T Cell)" expand="false" type="slide" />
+            <slidelink slideid="_player.5dCXrJV50ca.6jJjuXO4EiJ" displaytext="Question: Select all which are functions of antibodies" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.65dNXcD449i" displaytext="Antigen Receptors" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.65dNXcD449i.5dVYuvgffWb" displaytext="Antigen Receptors: General Structure" expand="false" type="slide" />
+            <slidelink slideid="_player.65dNXcD449i.5lIEo6hs8hk" displaytext="Antigen Receptors: Antigen Recognition Site" expand="false" type="slide" />
+            <slidelink slideid="_player.65dNXcD449i.64edUgwBWpR" displaytext="Antigen Receptors: VDJ Recombination" expand="false" type="slide" />
+            <slidelink slideid="_player.65dNXcD449i.69HTjfGooXv" displaytext="Question: Select the area of the antigen receptor" expand="false" type="slide" />
+            <slidelink slideid="_player.65dNXcD449i.5XqRacHknKl" displaytext="Question: Drag and drop the VDJ segments" expand="false" type="slide" />
+            <slidelink slideid="_player.65dNXcD449i.5tD6jLfiZJf" displaytext="Question: Select all statements which are true" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5YWYV29YwN0" displaytext="Receptor Diversity " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5YWYV29YwN0.6ScD2Imiq9k" displaytext="Development of Antigen Receptor Diversity " expand="false" type="slide" />
+            <slidelink slideid="_player.5YWYV29YwN0.6EdOKyoWyKT" displaytext="Combinatorial Diversity" expand="false" type="slide" />
+            <slidelink slideid="_player.5YWYV29YwN0.64VS9ODn0r6" displaytext="Question: How many possible combinations could you generate?" expand="false" type="slide" />
+            <slidelink slideid="_player.5YWYV29YwN0.6Q9E2HeiADB" displaytext="Number of gene segments for each receptor chain" expand="false" type="slide" />
+            <slidelink slideid="_player.5YWYV29YwN0.6VkDAR0po9P" displaytext="Junctional Diversity " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6CJRsxrTiJq" displaytext="VDJ Recombination" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6CJRsxrTiJq.6bJo1TkH5xh" displaytext="VDJ Recombination: Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6CJRsxrTiJq.6mr8XXgekkb" displaytext="VDJ Recombination: Steps 1 and 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6CJRsxrTiJq.6JmAbIHpUEM" displaytext="VDJ Recombination: Step 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6CJRsxrTiJq.5hnA8mYpZ3o" displaytext="VDJ Recombination: Step 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6CJRsxrTiJq.67M4iaKDeGT" displaytext="VDJ Recombination: Ordering " expand="false" type="slide" />
+            <slidelink slideid="_player.6CJRsxrTiJq.5uYm9g11p1A" displaytext="Question: Select all that apply to VDJ Recombination" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5VJrEq2KA7K" displaytext="Consequences of VDJ Recombination " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5VJrEq2KA7K.6eoBENzbguh" displaytext="VDJ Recombination and Lymphocyte Development" expand="false" type="slide" />
+            <slidelink slideid="_player.5VJrEq2KA7K.6AVAGo3tlxN" displaytext="Consequences of Junctional Diversity" expand="false" type="slide" />
+            <slidelink slideid="_player.5VJrEq2KA7K.5ulfDfgO5jP" displaytext="Rescuing Nonproductive Rearrangements: Available Loci " expand="false" type="slide" />
+            <slidelink slideid="_player.5VJrEq2KA7K.60Na0V0Ai2V" displaytext="Rescuing Nonproductive Rearrangements: Repeated Rearrangement" expand="false" type="slide" />
+            <slidelink slideid="_player.5VJrEq2KA7K.6e4kirX4uGi" displaytext="Question: If heavy chain V-DJ rearrangement in a B cell is unsuccessful..." expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ZE1cNGsZHe" displaytext="Summary" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ZE1cNGsZHe.6EQ73fNdzVN" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZE1cNGsZHe.6BRlnQgK17b" displaytext="Acknowledgements" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6NWJe2bBzd6.6CcOIfIdNfg" slidebank="false" type="slide">v(d)j recombination  antigen receptor development in adaptive immune cells </slidetext>
+      <slidetext slideid="5dCXrJV50ca.61N6qZ4Iod2" slidebank="false" type="slide">cells of the adaptive immune system b and t cells, also referred to as lymphocytes, are cells of the adaptive immune system.  these cells carry antigen receptors for unique epitopes that are crucial to imparting specificity to immune responses.  they differ from innate immune cells which have pre-formed receptors which recognise common epitopes, referred to as damps and pamps: danger associated molecular patterns (damps)  pathogen associated molecular patterns (pamps) a comparison of b and t cells is shown in the table below:  b cells  t cells  progenitor  common lymphoid progenitor  common lymphoid progenitor  site of maturation  bone marrow thymus  antigen receptor b cell receptor (bcr) antibody  t cell receptor (tcr) major types  naive b cell plasma cell memory b cell cd4+ t cell  cd8+ t cell</slidetext>
+      <slidetext slideid="5dCXrJV50ca.6rXyTk1PxKh" slidebank="false" type="slide">function of antibodies function of antibodies: neutralisation b cell  pathogen          </slidetext>
+      <slidetext slideid="5dCXrJV50ca.5xnyl56e6Pq" slidebank="false" type="slide">macrophage function of antibodies: opsonisation  </slidetext>
+      <slidetext slideid="5dCXrJV50ca.6jjNJNOcpQj" slidebank="false" type="slide">function of antibodies: complement activation      b cell   c1 pathogen</slidetext>
+      <slidetext slideid="5dCXrJV50ca.6Q3BnBDCqaF" slidebank="false" type="slide">function of antibodies: imparting specificity eosinophil    </slidetext>
+      <slidetext slideid="5dCXrJV50ca.69YSK37uKBe" slidebank="false" type="slide">function of tcrs  function of tcrs: direct (cd8+ t cell) epithelial cells  mhc i     cd8+ t cell   t cell   tcr </slidetext>
+      <slidetext slideid="5dCXrJV50ca.6iCixzJNgnE" slidebank="false" type="slide">macrophage function of tcrs: indirect (cd4+ t cell) mhc ii cd4+ t cell     </slidetext>
+      <slidetext slideid="5dCXrJV50ca.6jJjuXO4EiJ" slidebank="false" type="slide">b cells produce antibodies which have numerous functions including marking cells for opsonisation by phagocytes, neutralisation, acting as a starting point for the complement cascade, and imparting specificity to innate immune cells.  t cell surface receptor (tcr), work in direct and indirect ways. tcr’s on cd8+ t cells recognise damage or infected cells and can induce cell death. tcr’s on cd4+ t cells interact with mhc ii presenting cells and influence their activity  continue continue continue continue continue continue incorrect that is incorrect.  please try again or continue to review answer. try again try again try again try again try again try again continue continue continue continue continue continue incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  select all which are functions of antibodies: (hint: there are 4 correct answers) opsonisation opsonisation opsonisation opsonisation opsonisation opsonisation neutralisation  neutralisation  neutralisation  neutralisation  neutralisation  neutralisation  complement activation  complement activation  complement activation  complement activation  complement activation  complement activation  imparting specificity  imparting specificity  imparting specificity  imparting specificity  imparting specificity  imparting specificity  cytotoxic lymphocyte receptor  cytotoxic lymphocyte receptor  cytotoxic lymphocyte receptor  cytotoxic lymphocyte receptor  cytotoxic lymphocyte receptor  cytotoxic lymphocyte receptor  interacts with mhc ii presenting cells interacts with mhc ii presenting cells interacts with mhc ii presenting cells interacts with mhc ii presenting cells interacts with mhc ii presenting cells interacts with mhc ii presenting cells</slidetext>
+      <slidetext slideid="65dNXcD449i.5dVYuvgffWb" slidebank="false" type="slide">antigen receptors: general structure t cell b cell   heavy chain   light chain   beta chain   alpha chain   v v v v v v c c c c c c c c c c heavy chain   light chain   beta chain   alpha chain  </slidetext>
+      <slidetext slideid="65dNXcD449i.5lIEo6hs8hk" slidebank="false" type="slide">antigen receptors: antigen recognition site heavy/β chain   light/α chain   variable domain  constant domain    v d j j v  antigen recognition site</slidetext>
+      <slidetext slideid="65dNXcD449i.64edUgwBWpR" slidebank="false" type="slide">antigen receptors: vdj recombination heavy/β chain   light/α chain   v v d j j constant constant v1   vdj recombination  vj recombination   mature lymphocyte dna v2 d1 d2 d3 j1 j2 c v1 v2 v3 j1 j2 j3 j4 c</slidetext>
+      <slidetext slideid="65dNXcD449i.69HTjfGooXv" slidebank="false" type="slide">incorrect you did not select the correct response. try again try again try again try again try again try again incorrect you did not select the correct response. try again try again try again try again try again try again incorrect you did not select the correct response. try again try again try again try again try again try again correct that's right!  you selected the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue select the area of the antigen receptor that corresponds to the following: b cell t cell            beta chain select the area of the antigen receptor that corresponds to the following: b cell t cell            alpha chain correct that's right!  you selected the correct response. continue continue continue continue continue continue select the area of the antigen receptor that corresponds to the following: b cell t cell            heavy chain incorrect you did not select the correct response. try again try again try again try again try again try again correct that's right!  you selected the correct response. continue continue continue continue continue continue select the area of the antigen receptor that corresponds to the following: b cell t cell             light chain</slidetext>
+      <slidetext slideid="65dNXcD449i.5XqRacHknKl" slidebank="false" type="slide">    light/α chain  heavy/β chain v d j v j antigen recognition sites are found on the variable domain and not the constant domain.  heavy chains and β chains consist of v, d, and j segments. light chains and α chains consist of v and j segments only. continue continue continue continue continue continue incorrect that is incorrect.  please try again or continue to review answer. try again try again try again try again try again try again continue continue continue continue continue continue incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue drag and drop the vdj segments to complete the antigen receptor. (hint: remember that the antigen recognition site is found on the variable domain.)     light/α chain  heavy/β chain v d j  v d j v d v j d j v j v d d j</slidetext>
+      <slidetext slideid="65dNXcD449i.5tD6jLfiZJf" slidebank="false" type="slide">the antigen recognition sites of both b and t cells receptors is made up by both chains.  heavy chains (b cells) and beta chains (t cells) are analogous, their variable domain which makes up the antigen recognition portion is comprised v, d, and j gene segments.  light chains (b cells) and alpha chains (t cells) are analogous, their variable domain which makes up the antigen recognition portion is comprised of v and j gene segments.  continue continue continue continue continue continue incorrect that is incorrect.  please try again or continue to review answer. try again try again try again try again try again try again continue continue continue continue continue continue incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  select all statements which are true: (hint: there are 4 correct answers) b and t cell antigen receptor recognition sites are made by both chains b and t cell antigen receptor recognition sites are made by both chains b and t cell antigen receptor recognition sites are made by both chains b and t cell antigen receptor recognition sites are made by both chains b and t cell antigen receptor recognition sites are made by both chains b and t cell antigen receptor recognition sites are made by both chains the heavy chain variable domain is made up of v and j segments  the heavy chain variable domain is made up of v and j segments  the heavy chain variable domain is made up of v and j segments  the heavy chain variable domain is made up of v and j segments  the heavy chain variable domain is made up of v and j segments  the heavy chain variable domain is made up of v and j segments  the light chain variable domain is made up of v and j segments  the light chain variable domain is made up of v and j segments  the light chain variable domain is made up of v and j segments  the light chain variable domain is made up of v and j segments  the light chain variable domain is made up of v and j segments  the light chain variable domain is made up of v and j segments  heavy chains in b cells are analogous to beta chains of t cells  heavy chains in b cells are analogous to beta chains of t cells  heavy chains in b cells are analogous to beta chains of t cells  heavy chains in b cells are analogous to beta chains of t cells  heavy chains in b cells are analogous to beta chains of t cells  heavy chains in b cells are analogous to beta chains of t cells  the constant domain imparts antigen receptor specificity  the constant domain imparts antigen receptor specificity  the constant domain imparts antigen receptor specificity  the constant domain imparts antigen receptor specificity  the constant domain imparts antigen receptor specificity  the constant domain imparts antigen receptor specificity  light chains in b cells are structurally similar to alpha chains of t cells  light chains in b cells are structurally similar to alpha chains of t cells  light chains in b cells are structurally similar to alpha chains of t cells  light chains in b cells are structurally similar to alpha chains of t cells  light chains in b cells are structurally similar to alpha chains of t cells  light chains in b cells are structurally similar to alpha chains of t cells </slidetext>
+      <slidetext slideid="5YWYV29YwN0.6ScD2Imiq9k" slidebank="false" type="slide">development of antigen receptor diversity  vdj recombination is a form dna recombination that occurs in lymphocytes. highly controlled process of selecting and joining non-contiguous unique gene segments at random, to generate a unique variable domain sequence and receptor antigen recognition site. diversity is generated by two main mechanisms:  combinatorial diversity  junctional diversity  vdj recombination allows for diversity to be generated from a small amount of genetic material. to put this into perspective: human genome contains ~25,000 genes  antibody diversity potential is ~ 1 trillion required number of receptor genes without vdj recombination: 1 million heavy chains and 1 million light chains  this process of increasing the repertoire of proteins is different to mechanisms such as mrna splicing and protein modification, which do not edit the dna. </slidetext>
+      <slidetext slideid="5YWYV29YwN0.6EdOKyoWyKT" slidebank="false" type="slide">combinatorial diversity light/α chain  heavy/β chain  v1 j1 d1 v2 v5 v4 v3 d2 d3 d4 j2 j3 j4 j5 j6 vdj combination   v1     d4  j6  v5 d3   j1  v3  d1  j3    v1 v2 v3 v4 j1 j2 j3 j4 j5 v1 v4 v3 j4 j5 j2  v1 v2 v5 v4 v3 d1 d2 d3 d4 v.. d..       j1 j2 j3 j4 j5 j6 j..  v1 v2 v3 v4 v.. j1 j2 j3 j4 j5 j..      </slidetext>
+      <slidetext slideid="5YWYV29YwN0.64VS9ODn0r6" slidebank="false" type="slide">correct answer – 2592 combinations.  need to calculate the individual combinations of each chain, then multiply the number of heavy chain combinations by light chain combinations  continue continue continue continue continue continue incorrect that is incorrect.  please try again or continue to review answer. try again try again try again try again try again try again continue continue continue continue continue continue incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  combinatorial diversity (ii) heavy chain – 16 combinations; light chain – 11 combinations; total – 27 combinations  heavy chain – 16 combinations; light chain – 11 combinations; total – 27 combinations  heavy chain – 16 combinations; light chain – 11 combinations; total – 27 combinations  heavy chain – 16 combinations; light chain – 11 combinations; total – 27 combinations  heavy chain – 16 combinations; light chain – 11 combinations; total – 27 combinations  heavy chain – 16 combinations; light chain – 11 combinations; total – 27 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 5600 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 5600 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 5600 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 5600 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 5600 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 5600 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 132 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 132 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 132 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 132 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 132 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 132 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 2592 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 2592 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 2592 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 2592 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 2592 combinations  heavy chain – 108 combinations; light chain – 24 combinations; total – 2592 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 228 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 228 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 228 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 228 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 228 combinations  heavy chain – 200 combinations; light chain – 28 combinations; total – 228 combinations                 how many possible combinations could you generate from the following: heavy chain: 9 v segments, 4 d segments, 3 j segments  light chain: 8 v segments, 3 j segments </slidetext>
+      <slidetext slideid="5YWYV29YwN0.6Q9E2HeiADB" slidebank="false" type="slide">number of gene segments for each receptor chain adapted from fig 4.13 of abbas, a. k., et al. (2019). basic immunology: functions and disorders of the immune system, elsevierevier. 	  b cell t cell heavy chain  light chain (kappa)  light chain (lambda) alpha chain beta chain  variable segments 45 35 30 45 48 diversity segments  23 0 0 0 2 joining segments  6 5 4 50 12 # of v(d)j combinations 6210 175 120 2250 1152 # of chain combinations 1,831,950 2,592,000</slidetext>
+      <slidetext slideid="5YWYV29YwN0.6VkDAR0po9P" slidebank="false" type="slide">junctional diversity  junctional diversity arises through the joining of gene segments. enzymes are responsible for cutting and combining the gene segments together, but the process is variable. depending on how the genes are “cut and pasted”, even if two lymphocytes choose the same v, d, j segments, the sequence of the combined vdj will be different in each lymphocyte.</slidetext>
+      <slidetext slideid="6CJRsxrTiJq.6bJo1TkH5xh" slidebank="false" type="slide">vdj recombination: overview vdj recombination is a multi-step process that is intertwined with the development of lymphocytes.  successful recombination is required for lymphocyte development. it is highly coordinated by numerous enzyme complexes. vdj recombination is an ordered process on the segment level:  d to j recombination occurs first  v to dj recombination follows the process can be broken down into 4 main steps: synapsis  cleavage  hairpin opening and end processing   joining </slidetext>
+      <slidetext slideid="6CJRsxrTiJq.6mr8XXgekkb" slidebank="false" type="slide">legend  vdj recombination: steps 1 and 2  rag1/2 complex    flanking sequence  signal joint hairpins    v segment  d segment  j segment  v flanking sequence  d flanking  sequence  j flanking sequence  constant domain </slidetext>
+      <slidetext slideid="6CJRsxrTiJq.6JmAbIHpUEM" slidebank="false" type="slide">vdj recombination: step 3       </slidetext>
+      <slidetext slideid="6CJRsxrTiJq.5hnA8mYpZ3o" slidebank="false" type="slide">vdj recombination: step 4 p nucleotides  p nucleotides  n nucleotides  n nucleotides   </slidetext>
+      <slidetext slideid="6CJRsxrTiJq.67M4iaKDeGT" slidebank="false" type="slide">vdj recombination: ordering    legend  v segment  d segment  j segment  v flanking sequence  d flanking  sequence  j flanking sequence  constant domain  new  sequence</slidetext>
+      <slidetext slideid="6CJRsxrTiJq.5uYm9g11p1A" slidebank="false" type="slide">vdj recombination is a multi-step process which is required for lymphocyte development and function. it is the process by which receptor diversity is generated. it is achieved via irreversible dna modification.  continue  continue  continue  continue  continue  continue  incorrect that is incorrect.  please try again or continue to review answer. try again try again try again try again try again try again continue continue continue continue continue continue incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  select all that apply to vdj recombination: (hint: there are 4 correct answers) required for lymphocyte development required for lymphocyte development required for lymphocyte development required for lymphocyte development required for lymphocyte development required for lymphocyte development is a form of mrna editing to increase receptor diversity  is a form of mrna editing to increase receptor diversity  is a form of mrna editing to increase receptor diversity  is a form of mrna editing to increase receptor diversity  is a form of mrna editing to increase receptor diversity  is a form of mrna editing to increase receptor diversity  is a form of irreversible dna modification to increase receptor diversity  is a form of irreversible dna modification to increase receptor diversity  is a form of irreversible dna modification to increase receptor diversity  is a form of irreversible dna modification to increase receptor diversity  is a form of irreversible dna modification to increase receptor diversity  is a form of irreversible dna modification to increase receptor diversity  process by which antigen receptor diversity is generated  process by which antigen receptor diversity is generated  process by which antigen receptor diversity is generated  process by which antigen receptor diversity is generated  process by which antigen receptor diversity is generated  process by which antigen receptor diversity is generated  is a form of protein modification to increase receptor diversity  is a form of protein modification to increase receptor diversity  is a form of protein modification to increase receptor diversity  is a form of protein modification to increase receptor diversity  is a form of protein modification to increase receptor diversity  is a form of protein modification to increase receptor diversity  multi-step process  multi-step process  multi-step process  multi-step process  multi-step process  multi-step process  occurs in innate and adaptive immune cells  occurs in innate and adaptive immune cells  occurs in innate and adaptive immune cells  occurs in innate and adaptive immune cells  occurs in innate and adaptive immune cells  occurs in innate and adaptive immune cells </slidetext>
+      <slidetext slideid="5VJrEq2KA7K.6eoBENzbguh" slidebank="false" type="slide">vdj recombination and lymphocyte development pro b cell surrogate light chain     ?   large pre-b cell small pre-b cell immature b cell analogous process occurs in t cells </slidetext>
+      <slidetext slideid="5VJrEq2KA7K.6AVAGo3tlxN" slidebank="false" type="slide">consequences of junctional diversity pro b cell incorrect reading frame premature stop codon large pre-b cell            </slidetext>
+      <slidetext slideid="5VJrEq2KA7K.5ulfDfgO5jP" slidebank="false" type="slide">rescuing nonproductive rearrangements: available loci  heavy chains (2x) light chains (4x) kappa (2x) lambda (2x) </slidetext>
+      <slidetext slideid="5VJrEq2KA7K.60Na0V0Ai2V" slidebank="false" type="slide">rescuing nonproductive rearrangements: repeated rearrangement</slidetext>
+      <slidetext slideid="5VJrEq2KA7K.6e4kirX4uGi" slidebank="false" type="slide">in the case of v to dj rearrangement in b cells being unsuccessful, v to dj rearrangement of the other heavy chain loci can occur. d to j rearrangement of the two heavy chain loci in the b cell occurs at the same time.   continue continue continue continue continue continue incorrect that is incorrect.  please try again or continue to review answer. try again try again try again try again try again try again continue  continue  continue  continue  continue  continue  incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  if heavy chain v-dj rearrangement in a b cell is unsuccessful, what mechanism allows for the antigen receptor and cell to be salvaged? repeated rearrangement  repeated rearrangement  repeated rearrangement  repeated rearrangement  repeated rearrangement  repeated rearrangement  v-dj rearrangement of other heavy chain loci v-dj rearrangement of other heavy chain loci v-dj rearrangement of other heavy chain loci v-dj rearrangement of other heavy chain loci v-dj rearrangement of other heavy chain loci v-dj rearrangement of other heavy chain loci no mechanism is available  no mechanism is available  no mechanism is available  no mechanism is available  no mechanism is available  no mechanism is available  mrna editing  mrna editing  mrna editing  mrna editing  mrna editing  mrna editing  protein modification  protein modification  protein modification  protein modification  protein modification  protein modification </slidetext>
+      <slidetext slideid="5ZE1cNGsZHe.6EQ73fNdzVN" slidebank="false" type="slide">summary specificity of b and t cells is imparted by their unique antigen receptor.  the structures of the bcr/antibody and tcr are analogous, made up of a protein heterodimer. each chain is composed of variable and constant domains: variable domains contribute to the antigen recognition site.  constant domains are important for cell anchorage and interacting with cell surface proteins. heavy/beta variable domains are made up of v, d, j segments, while light/alpha variable domains are made up of v and j segments. vdj recombination is the ordered process which generates unique antigen receptor dna sequences and intertwined with lymphocyte development.  diversity is generated through combination of gene segments (combinatorial), and how they are joined to one another (junctional). many rearrangements are unsuccessful but the lymphocytes have mechanisms to salvage non-functional sequences, allowing them to continue to try and develop a functioning receptor.</slidetext>
+      <slidetext slideid="5ZE1cNGsZHe.6BRlnQgK17b" slidebank="false" type="slide">acknowledgements funded by anu college of health and medicine dean’s strategic funding developed by technology-enhanced learning and teaching (telt), anu medical school (anums), anu college of health and medicine, the australian national university thomas mckinlay – student, anums dr katrina randall – associate professor, anums dr carolyn hawkins – clinical associate professor, anums dr gary chew – immunologist, the canberra hospital dr alexandra webb – associate professor, anums katherine esteves – learning designer, telt vinuri wijedasa – learning designer, telt</slidetext>
+      <slidetext slideid="5ZE1cNGsZHe.5dMu9bgvmgv" slidebank="false" type="slide">how to use this resource   click to toggle the sidebar on and off      click notes to access  the audio transcript  type search terms into the search box to quickly find relevant information   use menu to navigate through the resource   click to play/pause animations and/or audio   click to replay animations and/or audio   click previous/next to navigate through slides   click for accessibility settings    click to open acknowledgments  click to open this slide </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5dCXrJV50ca.61N6qZ4Iod2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="B and T cells, also referred to as lymphocytes, are cells of the adaptive immune system.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="These cells carry antigen receptors for unique epitopes and are crucial for imparting specificity to immune responses. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="They differ from innate immune cells, which have pre-formed receptors which recognise common epitopes, referred to as danger associated molecular patterns and pathogen associated molecular patterns&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A comparison of B and T cells is shown in the table below"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dCXrJV50ca.6rXyTk1PxKh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Antibodies, the free form of the B cell receptor, mediate numerous immune functions.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Neutralisation:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Simply by being bound to their target antigen, antibodies can have immunological function. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- This can be in the form of binding to the cell surface proteins crucial to cellular entry, or could be binding to an exotoxin which prevents its function."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dCXrJV50ca.5xnyl56e6Pq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Opsonisation:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Opsonisation of pathogens can be facilitated by antibodies bound to Fc receptors on phagocytes such as macrophages."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dCXrJV50ca.6jjNJNOcpQj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Complement Activation:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Bound antibody is able to act as the starting point for the complement cascade, via the classical pathway."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dCXrJV50ca.6Q3BnBDCqaF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Imparting Specificity:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Via specialised Fc receptors, antibodies can allow innate immune cells to act in a targeted and specific manner.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- An example being IgE antibodies on eosinophils, allowing for targeted release of granules against recognised parasites."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dCXrJV50ca.69YSK37uKBe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="T cell receptors recognise processed antigen presented on the surface of cells via MHC molecules, known as the antigen-MHC complex.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Direct Function:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- CD8+ cytotoxic T cells recognise antigen presented on MHC class I molecules.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Recognition of antigen results in release of enzymes from T cells, and subsequent death of the infected or damaged cells."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dCXrJV50ca.6iCixzJNgnE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="CD4+ helper T cells interact with MHC class II molecules. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="MHC class II molecules are only expressed on formal antigen presenting cells, including dendritic cells, mononuclear phagocytes, B cells and other specialised cell populations. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In the case of intravesicular pathogens, as seen in macrophages, CD4+ T cells via their T cell receptor can further activate the macrophage to enhance its ability to kill the contained pathogen."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="65dNXcD449i.5dVYuvgffWb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="While antibodies and T cell receptors carry out different immunological functions, their basic structure is shared.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Each receptor is composed of a protein hetero-dimer.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- In antibodies these are referred to as heavy and light chains. There are two heavy chains and two light chains in every antibody.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- In the case of the T cell receptor, the chains are known as the beta and alpha chains.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- The heavy chain of an antibody is analogous to the beta chain of the T cell receptor while the light chain is analogous to the alpha chain.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Each of the outlined chains is composed of variable and constant domains.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Each chain has one variable domain which contributes to the antigen recognition site.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- Each chain has one constant domain, with the exception of the heavy chain of antibodies that can have multiple. The constant domains are responsible for cell anchorage, and interacting with other cell surface proteins.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Circled, is a structurally shared portion of the lymphocyte receptors."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="65dNXcD449i.5lIEo6hs8hk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The variable domain of each chain is encoded by multiple gene segments. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- The heavy chain of antibodies (or B cells receptors), and the beta chain of the T cell receptor is encoded by a variable (designated V), diversity (designation D), and a joining (designated J) segment. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="- The light chain of antibodies (or B cell receptors), and the alpha chain of the T cell receptor is encoded by a variable, and a joining segment. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Each of the segments contribute to the antigen recognition site."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="65dNXcD449i.64edUgwBWpR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The DNA for a mature lymphocytes antigen receptor follows this general schematic.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="With such similarity in the general structure of contributing chains to both lymphocyte antigen receptors, the question arises as to how such diversity and capacity for antigen recognition is developed. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The answer is the process known as VDJ recombination, a form of non-homologous recombination which irreversibly edits the genetic material of immature lymphocytes to produce the receptor genes."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5YWYV29YwN0.6ScD2Imiq9k" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" VDJ recombination is a form of recombination that occurs in lymphocytes.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The highly controlled process involves the random selection and joining of non-contiguous unique gene segments, to generate a contiguous and unique variable domain sequence and receptor antigen recognition site.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Combinatorial and junctional diversity are the two mechanisms by which receptor diversification is achieved in both lymphocyte populations.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="VDJ recombination allows for diversity to be generated from a small amount of genetic material.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To put this into perspective, the human genome contains ~25,000 genes.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To encode the potential one trillion antibody molecules the body can produce without recombination, it would require one million unique light chains, and one million heavy chains.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="It is important to recognise that this process of increasing the repertoire of proteins is different to mechanisms such as mRNA splicing and protein modification, which do not edit the DNA."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5YWYV29YwN0.6EdOKyoWyKT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Combinatorial Diversity:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As previously discussed, the variable domains are made up of V and J gene segments, and in the case of heavy, or beta chains, also D segments.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="While only one of each segment is part of the final sequence, the immature lymphocyte encodes numerous versions of each, as shown.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="During VDJ recombination, these contributing segments are selected at random. The selection of each gene segment is analogous to a lucky dip.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Combinatorial diversity is two fold, occurring on the level of the individual chains, as well as on the level of the receptor, as both chains contribute to the antigen recognition site."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5YWYV29YwN0.6Q9E2HeiADB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Shown are the numbers of gene segments present for each receptor chain."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5YWYV29YwN0.6VkDAR0po9P" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Junctional Diversity:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Junctional diversity arises through the joining of gene segments.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Depending on how the genes are “cut and pasted” even if two lymphocytes choose the same V,D, and J segments, the sequence of the combined VDJ will be different in each lymphocyte."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CJRsxrTiJq.6bJo1TkH5xh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="VDJ recombination is a multistep process that is intertwined with the development of lymphocytes. Successful recombination is required for lymphocyte development. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The process is highly coordinated and controlled by numerous enzyme complexes which facilitate the necessary reactions to recombine the DNA.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The process is ordered with stepwise joining of gene segments. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There are 4 steps to VDJ recombination: synapsis, cleavage, hairpin opening and end processing; and joining."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CJRsxrTiJq.6mr8XXgekkb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The first step is that the DNA is made accessible, via histone modification, to the recombination machinery.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The RAG enzyme complex has multiple functions, including recognising specific sequences that flank the coding segments (illustrated here as triangles).&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There are specific markers to make sure the DNA is cut and pasted in the appropriate places. In this example, ensuring a D and J segment are selected.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The RAG enzyme complex can cut the DNA and is responsible for introducing single stranded breaks at the intersection between the coding segments and the specific marker segments. The single stranded breaks go on to form hairpins.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The segment that is cut out binds to itself to form a circle of DNA that can be detected in the cell but is no longer part of the nuclear DNA.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The hairpin ends of the DNA are now the focus.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CJRsxrTiJq.6JmAbIHpUEM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Various enzymes are now responsible for opening the hairpins and making minor modifications to the DNA to allow it to be pasted back together."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CJRsxrTiJq.5hnA8mYpZ3o" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Nucleotides that are added by the enzymes according to the template of the other strand are referred to as P nucleotides. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Nucleotides can also be added randomly by enzymes. They are referred to as N nucleotides.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A specific enzyme now puts the broken ends together to give one continuous strand of DNA.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="72" TrailingMargin="0" FirstLineMargin="72" Justification="Left" ListLevel="2" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CJRsxrTiJq.67M4iaKDeGT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In the case of the heavy chain of B lymphocytes, or the beta chain of T lymphocytes, the D segment is first joined to the J segment. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Following this process the newly formed DJ segment is joined to a V segment.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="This results in a contiguous variable domain sequence."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5VJrEq2KA7K.6eoBENzbguh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Successful recombination of the receptor chains is required for continued development.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Chain rearrangement is staggered and associated with specific development stages.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The Pro B cell initially rearranges the heavy chain.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The now large Pre-B cell expresses the newly formed heavy chain on the cell surface with a surrogate light chain.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The surrounding support cells test the intermediary Pre-B cell receptor.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Activation and subsequent signalling through the receptor provides the large Pre-B cell the necessary signals to survive and continue development.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The now small pre-B cell rearranges its light chain and now expresses its newly formed receptor complex on its surface for further scrutiny."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5VJrEq2KA7K.6AVAGo3tlxN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="While the introduction of junctional diversity during VDJ recombination is vital, it has its consequences, with a high potential to result in DNA sequences which cannot be turned into protein.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="This can arise for many reasons, including loss of the appropriate reading frame, or premature introduction of stop codons.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="If the DNA sequence can’t be used to make a protein, no receptor is expressed on the cell surface and the cell is prevented from receiving the required survival and maturation signals.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In the case of B cell development, rearrangement of the light chain cannot occur until productive heavy chain rearrangement occurs.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Based on reading frame alone, up to two thirds of all rearrangements would not be able to produce a protein.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="For this reason, molecular processes are present to salvage lymphocytes with non-productive rearrangements, in the hope of generating a functional receptor.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Regardless of these mechanisms, in many circumstances functional receptors are not produced, resulting in death of the lymphocyte."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5VJrEq2KA7K.5ulfDfgO5jP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In the case of a non-productive rearrangement of the heavy chain gene, rearrangement of the second copy of the gene can occur.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="As a pro B cell, both copies of the heavy chain undergo D to J rearrangement, but only one will undergo V to DJ rearrangement. If the first V to DJ rearrangement is unsuccessful, the 2nd copy is able to undergo V to DJ rearrangement.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In the case of the light chain, there are 4 chains in total: two copies of the kappa chain, and two copies of the lambda chain.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The chains in this circumstance are attempted in succession, first the kappa chains, followed by the lambda chains.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The same is true for immature T cells with multiple copies of the alpha and beta chains providing an opportunity to salvage the developing cell."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5VJrEq2KA7K.60Na0V0Ai2V" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In the case of the light chain gene loci, repeated rearrangements are possible.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="If a non-productive rearrangement occurs, the cell can attempt further rearrangement.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The number of attempts is dependent on the available genetic material.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The same process occurs in T cells for the alpha chain.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="If production of protein is successful, signals are sent within the cell to prevent any further recombination events to ensure that each cell has only one copy of the receptors genes which can be transcribed and translated, and only one version of the receptor"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
